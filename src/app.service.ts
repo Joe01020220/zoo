@@ -9,4 +9,6 @@ export class AppService {
   public getDetail(): string {
     return 'Here are Detil!';
   }
+
+ 
 }

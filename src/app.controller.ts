@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('detail')
   public getDetail(): string {
-    return this.appService.getHello();
+    return this.appService.getDetail();
   }
 }
